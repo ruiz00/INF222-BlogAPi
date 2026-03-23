@@ -15,7 +15,7 @@ API RESTful pour la gestion des articles d'un blog, développée avec **Node.js*
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/VOTRE_NOM/blog-api.git
+git clone https://github.com/ruiz00/INF222-BlogAPi.git
 cd blog-api
 
 # 2. Installer les dépendances
@@ -57,7 +57,7 @@ blog-api/
 ---
 
 ## Endpoints
-
+```
 | Méthode    | Endpoint                          | Description                   | Code HTTP |
 | :--------- | :-------------------------------- | :---------------------------- | :-------: |
 | `GET`      | `/api/articles`                   | Lister tous les articles      |    200    |
@@ -69,11 +69,11 @@ blog-api/
 | `PUT`      | `/api/articles/:id`               | Modifier un article existant  | 200 / 404 |
 | `DELETE`   | `/api/articles/:id`               | Supprimer un article          | 200 / 404 |
 | `GET`      | `/api/articles/search?query=mot`  | Recherche plein texte         | 200 / 400 |
-
+```
 ---
 
 ## Modèle de données
-
+```
 | Champ       | Type      | Obligatoire | Description                        |
 | :---------- | :-------: | :---------: | :--------------------------------- |
 | `id`        | integer   |    Auto     | Identifiant unique auto-généré     |
@@ -83,7 +83,7 @@ blog-api/
 | `categorie` | string    |    Non      | Catégorie (défaut : `General`)     |
 | `tags`      | array     |    Non      | Liste de mots-clés (défaut : `[]`) |
 | `date`      | string    |    Auto     | Date de création (ISO 8601)        |
-
+```
 ---
 
 ## Exemples d'utilisation
@@ -163,7 +163,7 @@ curl -X DELETE http://localhost:3000/api/articles/1
 ---
 
 ## Codes HTTP
-
+```
 | Code  | Statut                |  Cas d'utilisation                                    |
 | :---: | :-------------------- | :---------------------------------------------------- |
 | `200` | OK                    | Requête réussie — lecture, modification, suppression  |
@@ -171,7 +171,7 @@ curl -X DELETE http://localhost:3000/api/articles/1
 | `400` | Bad Request           | Données invalides ou champs obligatoires manquants    |
 | `404` | Not Found             | Article introuvable (ID inexistant)                   |
 | `500` | Internal Server Error | Erreur inattendue côté serveur                        |
-
+```
 ---
 
 ## Bonnes pratiques appliquées
@@ -187,7 +187,7 @@ curl -X DELETE http://localhost:3000/api/articles/1
 ---
 
 ## Technologies utilisées
-
+```
 | Technologie            | Version   | Rôle                                           |
 | :--------------------- | :-------: | :--------------------------------------------- |
 | Node.js + Express.js   | ^4.18.3   | Serveur HTTP et routing                        |
@@ -198,7 +198,7 @@ curl -X DELETE http://localhost:3000/api/articles/1
 | cors                   | ^2.8.5    | Gestion du Cross-Origin Resource Sharing       |
 | morgan                 | ^1.10.0   | Journalisation des requêtes HTTP               |
 | dotenv                 | ^16.4.5   | Variables d'environnement                      |
-
+```
 ---
 
 ## Variables d'environnement
@@ -214,6 +214,6 @@ NODE_ENV=development
 
 ## Auteur
 
-**VOTRE NOM COMPLET** — Matricule : **VOTRE MATRICULE**
+**GWANULAGA BRYAN NYAGHA** 
 
-INF222 — Développement Web | Université de [Votre Université] | 2026
+INF222 — Développement Web | Université de Yaounde I | 2026
