@@ -60,15 +60,15 @@ blog-api/
 ```
 | Méthode    | Endpoint                          | Description                   | Code HTTP |
 | :--------- | :-------------------------------- | :---------------------------- | :-------: |
-| `GET`      | `/api/articles`                   | Lister tous les articles      |    200    |
-| `GET`      | `/api/articles?categorie=Tech`    | Filtrer par catégorie         |    200    |
-| `GET`      | `/api/articles?auteur=Jean`       | Filtrer par auteur            |    200    |
-| `GET`      | `/api/articles?date=2026-03-20`   | Filtrer par date (YYYY-MM-DD) |    200    |
-| `GET`      | `/api/articles/:id`               | Récupérer un article par ID   | 200 / 404 |
-| `POST`     | `/api/articles`                   | Créer un nouvel article       | 201 / 400 |
-| `PUT`      | `/api/articles/:id`               | Modifier un article existant  | 200 / 404 |
-| `DELETE`   | `/api/articles/:id`               | Supprimer un article          | 200 / 404 |
-| `GET`      | `/api/articles/search?query=mot`  | Recherche plein texte         | 200 / 400 |
+| `GET`      | /api/articles`                   | Lister tous les articles      |    200    |
+| `GET`      | /api/articles?categorie=Tech    | Filtrer par catégorie         |    200    |
+| `GET`      | /api/articles?auteur=Jean      | Filtrer par auteur            |    200    |
+| `GET`      | /api/articles?date=2026-03-20   | Filtrer par date (YYYY-MM-DD) |    200    |
+| `GET`      | /api/articles/:id               | Récupérer un article par ID   | 200 / 404 |
+| `POST`     | /api/articles                   | Créer un nouvel article       | 201 / 400 |
+| `PUT`      | /api/articles/:id             | Modifier un article existant  | 200 / 404 |
+| `DELETE`   | /api/articles/:id             | Supprimer un article          | 200 / 404 |
+| `GET`      | /api/articles/search?query=mot`  | Recherche plein texte         | 200 / 400 |
 ```
 ---
 
