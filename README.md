@@ -190,14 +190,14 @@ curl -X DELETE http://localhost:3000/api/articles/1
 ```
 | Technologie            | Version   | Rôle                                           |
 | :--------------------- | :-------: | :--------------------------------------------- |
-| Node.js + Express.js   | ^4.18.3   | Serveur HTTP et routing                        |
-| sql.js                 | ^1.12.0   | Base de données SQLite (WebAssembly, Node v24) |
-| swagger-jsdoc          | ^6.2.8    | Génération de la spécification OpenAPI 3.0     |
-| swagger-ui-express     | ^5.0.0    | Interface Swagger UI sur `/api-docs`           |
-| helmet                 | ^7.1.0    | Sécurisation des en-têtes HTTP                 |
-| cors                   | ^2.8.5    | Gestion du Cross-Origin Resource Sharing       |
-| morgan                 | ^1.10.0   | Journalisation des requêtes HTTP               |
-| dotenv                 | ^16.4.5   | Variables d'environnement                      |
+| Node.js + Express.js   | 4.18.3   | Serveur HTTP et routing                        |
+| sql.js                 | 1.12.0   | Base de données SQLite (WebAssembly, Node v24) |
+| swagger-jsdoc          | 6.2.8    | Génération de la spécification OpenAPI 3.0     |
+| swagger-ui-express     | 5.0.0    | Interface Swagger UI sur `/api-docs`           |
+| helmet                 | 7.1.0    | Sécurisation des en-têtes HTTP                 |
+| cors                   | 2.8.5    | Gestion du Cross-Origin Resource Sharing       |
+| morgan                 | 1.10.0   | Journalisation des requêtes HTTP               |
+| dotenv                 | 16.4.5   | Variables d'environnement                      |
 ```
 ---
 
